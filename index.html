@@ -6,31 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>masynctech-clone</title>
     <link rel="stylesheet" href="output.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         * {
-            font-family:Arial, Helvetica, sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
         }
+        /* .login:hover {
+            cursor: pointer;
+            border: transparent 2px solid;
 
-        .login {
-            transition: all 0.3s ease;
-            border: 1px solid #f59e0b;
-        }
 
-        .login:hover {
-            border: transparent;
-            background-color: transparent;
-            color: white;
-        }
+        } */
     </style>
 
 </head>
 
 <body>
     <div class="navbar flex justify-between items-center p-4  px-18  text-white " style="background-color: #121f3a;">
-        <div class="logo w-13 h-13">
-            <img src="https://d35v9chtr4gec.cloudfront.net/inovotekacademy/settings/0Kwi2HKaKIFO70xW6cEE-1714170891/masynctech-logo.png "
-                alt="">
+        <div class="logo w-13 h-13"><a href="https://masynctech.com/">
+                <img src="https://d35v9chtr4gec.cloudfront.net/inovotekacademy/settings/0Kwi2HKaKIFO70xW6cEE-1714170891/masynctech-logo.png"
+                    alt="">
+            </a>
         </div>
         <div class="menu flex justify-center items-center gap-8">
             <ul class="flex justify-center items-center gap-8 text-lg font-semibold text-[18px]">
@@ -41,9 +39,16 @@
             </ul>
             <div class="buttons  mr-0 flex justify-center items-center gap-4">
 
-                <button
-                    class="login bg-white text-yellow-500 font-normal py-2 px-7 rounded-full border-amber-500 hover:cursor-pointer font-waight-light">
-                    Login</button>
+<button
+  class="bg-white text-amber-500 font-light py-2 px-7 rounded-full
+         border-2 border-amber-500 hover:cursor-pointer
+         hover:bg-[#121f3a] hover:text-white hover:border-transparent
+         transition-all duration-200 ease-in-out">
+  Login
+</button>
+
+
+
                 <button
                     class="register text-white bg-amber-500 font-normal py-2 px-7 rounded-full border-amber-500 hover:cursor-pointer ease duration-200 hover:bg-[#121f3a]">Register</button>
             </div>
@@ -59,7 +64,7 @@
                 AI Makes Programming Effortless Skip memorizing code and let AI help you become a programmer today
             </p>
             <button type="button"
-                class="bg-amber-500 text-white font-normal text-2xl py-3 px-7 rounded-full border-amber-500 hover:cursor-pointer">Take
+                class="text-white bg-amber-500 font-bold text-2xl py-3 px-7 rounded-full border-amber-500 hover:cursor-pointer ease duration-200 hover:bg-[#121f3a]">Take
                 The Course</button>
         </section>
         <section class="my-2 mx-1 py-3 py-10 text-center">
@@ -300,43 +305,61 @@
         <section class="flex flex-row  w-[75%] m-auto justify-between items-center mb-40 gap-10 ">
             <div class="w-[900px] pr-10">
                 <h1 class="text-8xl text-[#0f172a] font-bold">New Project
-                     <br>Every Month</h1>
-                <p class="text-xl mt-9 pr-10 text-[#0f172a]">Boost your web development journey with a new, dynamic project each month! Our course ensures holistic growth in both front-end and back-end technologies, providing practical experience and diverse portfolio development. Join us to stay cutting-edge in the ever-evolving tech landscape! 🌐</p>
+                    <br>Every Month
+                </h1>
+                <p class="text-xl mt-9 pr-10 text-[#0f172a]">Boost your web development journey with a new, dynamic
+                    project each month! Our course ensures holistic growth in both front-end and back-end technologies,
+                    providing practical experience and diverse portfolio development. Join us to stay cutting-edge in
+                    the ever-evolving tech landscape! 🌐</p>
             </div>
-            <img class="w-[500px] h-[500px] rounded-2xl" src="https://d35v9chtr4gec.cloudfront.net/inovotekacademy/pages/images/1/1711108101762098200.jpeg" alt="">
+            <img class="w-[500px] h-[500px] rounded-2xl"
+                src="https://d35v9chtr4gec.cloudfront.net/inovotekacademy/pages/images/1/1711108101762098200.jpeg"
+                alt="">
         </section>
 
 
-        <section class="flex flex-row  w-[75%] m-auto justify-between mb-30 relative gap-10 rounded-[50px] bg-[#e2e8f0] p-10">
-            <div class="w-[900px] pr-10 mt-15 ml-5" >
+        <section
+            class="flex flex-row  w-[75%] m-auto justify-between mb-30 relative gap-10 rounded-[50px] bg-[#e2e8f0] p-10">
+            <div class="w-[900px] pr-10 mt-15 ml-5">
                 <h1 class="text-7xl font-bold">Join Us Today</h1>
-                <p class="text-xl mt-9 pr-10 w-[700px]">Don't delay your tech journey. Join us today for our 3-month Web Development program and benefit from three months of free course video access, unlimited live classes, and complimentary webinars.</p>
-                <button class="bg-white text-amber-500  border-amber-500  border-2 px-6 py-4 rounded-full font-bold  transition-all duration-200 hover:bg-[#121f3b] hover:border-[#121f3b] mt-20">Join Masynctech</button>
+                <p class="text-xl mt-9 pr-10 w-[700px]">Don't delay your tech journey. Join us today for our 3-month Web
+                    Development program and benefit from three months of free course video access, unlimited live
+                    classes, and complimentary webinars.</p>
+                <button
+                    class="bg-white text-amber-500  border-amber-500  border-2 px-6 py-4 rounded-full font-bold  transition-all duration-200 hover:bg-[#121f3b] hover:border-[#121f3b] mt-20">Join
+                    Masynctech</button>
             </div>
 
-            <img class="w-[500px] h-[500px] rounded-2xl absolute bottom-0 right-3 scale-105" src="https://d35v9chtr4gec.cloudfront.net/uteach/assets/ngjs-cta-1-img.png" alt="">
+            <img class="w-[500px] h-[500px] rounded-2xl absolute bottom-0 right-3 scale-105"
+                src="https://d35v9chtr4gec.cloudfront.net/uteach/assets/ngjs-cta-1-img.png" alt="">
 
-            <span class="absolute top-0 left-[calc(50%+100px)] top-13 rotate-[-20deg] text-xl font-medium text-lg bg-white p-2 px-3   z-1 rounded-xl">The 3-Month Coding Sprint </span><span class="bg-white w-5 h-5 absolute left-[calc(50%+290px)] top-15 rotate-[-70deg]"></span>
+            <span
+                class="absolute top-0 left-[calc(50%+100px)] top-13 rotate-[-20deg] text-xl font-medium text-lg bg-white p-2 px-3   z-1 rounded-xl">The
+                3-Month Coding Sprint </span><span
+                class="bg-white w-5 h-5 absolute left-[calc(50%+290px)] top-15 rotate-[-70deg]"></span>
         </section>
     </main>
     <footer>
         <hr class="border-t border-gray-300 my-10 h-1">
 
         <div class="footer-content flex flex-col justify-center items-center p-6 px-18 text-black gap-10">
-            <img class="h-15" src="https://d35v9chtr4gec.cloudfront.net/inovotekacademy/pages/images/footer/171417095192218977.png" alt="" srcset="">
-            <div class="footer-menu flex justify-center items-center gap-20 mt-10 text-xl font" >
+            <img class="h-15"
+                src="https://d35v9chtr4gec.cloudfront.net/inovotekacademy/pages/images/footer/171417095192218977.png"
+                alt="" srcset="">
+            <div class="footer-menu flex justify-center items-center gap-20 mt-10 text-xl font">
                 <a href="#" class="hover:underline">Home</a>
                 <a href="#" class="hover:underline">Downloads</a>
                 <a href="#" class="hover:underline">blog</a>
                 <a href="#" class="hover:underline">Join Our Next Intake</a>
             </div>
-            <img class="h-5 my-5" src="https://d35v9chtr4gec.cloudfront.net/uteach/assets/ngjs-footer-3-line.png" alt="">
+            <img class="h-5 my-5" src="https://d35v9chtr4gec.cloudfront.net/uteach/assets/ngjs-footer-3-line.png"
+                alt="">
 
             <div class="social-icons flex justify-center items-center gap-6 text-[9px] mb-30">
                 <a href="#" class="text-black hover:text-gray-800"><i class="fab fa-youtube fa-2x"></i></a>
                 <a href="#" class="text-black hover:text-gray-800"><i class="fab fa-facebook fa-2x"></i></a>
                 &nbsp;
-                <a href="#" class="text-black hover:text-gray-800"><i class="fab fa-github fa-2x"></i></a>    
+                <a href="#" class="text-black hover:text-gray-800"><i class="fab fa-github fa-2x"></i></a>
             </div>
 
     </footer>
